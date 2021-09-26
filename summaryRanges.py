@@ -4,6 +4,7 @@ class Solution:
         [0,1,2,4,5,7]
         
         '''
+        # If nums is empty, return an empty array
         if not nums:
             return []
         
