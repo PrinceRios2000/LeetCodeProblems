@@ -21,7 +21,7 @@ class Solution:
                 start_num = num
                 
             expected_num = num + 1
-            
+        # Add last range of numbers to our result array
         if start_num != expected_num-1:
             res.append(str(start_num) + '->' + str(expected_num-1))
         else:
